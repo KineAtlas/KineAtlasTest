@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+</head>
+<body>
+    <nav>
+        <ul>
+        <a href="index.html" class="boton-elegante">Inicio</a>
+        <a href="articulaciones.html" class="boton-elegante">Articulaciones</a>
+            <script src="script.js"></script>
+        </ul>
+    </nav>
+    
+    <section id="musculos">
+        <h2>Lista de Músculos</h2>
+        <input type="text" id="buscador" placeholder="Buscar músculo...">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Origen</th>
+                    <th>Inserción</th>
+                    <th>Inervación</th>
+                    <th>Función</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-musculos">
+                <tr>
+                    <td>Occipitofrontal Vientre Frontal</td>
+                    <td>Galea Aponeurótica</td>
+                    <td>Piel de la frente</td>
+                    <td>Ramos temporales del nervio facial</td>
+                    <td>Arruga la piel de la frente horizontalmente y eleva las cejas</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Occipitofrontal Vientre Occipital</td>
+                    <td>Hueso Occipital</td>
+                    <td>Piel de la región Occipital</td>
+                    <td>Nervio auricular posterior</td>
+                    <td>Mueve el cuero cabelludo hacia atrás</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Orbicular del ojo Porción orbitaria</td>
+                    <td>Hueso Frontal y maxilar</td>
+                    <td>Región preorbitaria</td>
+                    <td>Ramos temporales y cigomáticos del nervio facial</td>
+                    <td>Cierra los ojos</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Orbicular del ojo Porción palpebral</td>
+                    <td>Hueso lagrimal</td>
+                    <td>Ligamento palpebral</td>
+                    <td>Ramos temporales y cigomáticos del nervio facial</td>
+                    <td>Cierra los ojos</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Corrugador del ojo</td>
+                    <td>Arco superciliar del hueso frontal</td>
+                    <td>Borde supraorbitario y ceja</td>
+                    <td>Nervio facial NC7</td>
+                    <td>Mueve las cejas medialmente</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Depresor superciliar</td>
+                    <td>Borde supraorbitario del hueso frontal</td>
+                    <td>Piel de la parte medial de la ceja</td>
+                    <td>Nervio facial NC7</td>
+                    <td>Deprime la ceja medialmente</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Procer</td>
+                    <td>Fascia que cubre la parte inferior del hueso nasal</td>
+                    <td>Piel medial y superior de la ceja</td>
+                    <td>Ramos temporales y cigomáticos del nervio facial</td>
+                    <td>Produce arrugas transversales sobre el puente de la nariz</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Nasal</td>
+                    <td>Eminencia del diente canino</td>
+                    <td>Aponeurosis que cubre los cartílagos nasales</td>
+                    <td>Ramas bucales del nervio facial</td>
+                    <td>Tracciona el ala de la nariz hacia el tabique nasal</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Depresor del tabique nasal</td>
+                    <td>Fosa incisiva del maxilar</td>
+                    <td>Porción inferior del tabique nasal y parte posterior del ala de la nariz</td>
+                    <td>Nervio Facial</td>
+                    <td>Desciende el tabique nasal y estrecha las aberturas nasales</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Orbicular de los labios</td>
+                    <td>Hueso maxilar y mandíbula</td>
+                    <td>Mucosa y piel de los labios</td>
+                    <td>Nervio facial</td>
+                    <td>Cierra la boca, y protruye los labios</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Elevador del labio superior</td>
+                    <td>Borde infraorbitario del maxilar</td>
+                    <td>Piel del labio superior</td>
+                    <td>Nervio facial, Ramas bucales</td>
+                    <td>Eleva y eversa el labio superior</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Elevador del ángulo de la boca</td>
+                    <td>Fosa canina del maxilar, por debajo del foramen infraorbitario</td>
+                    <td>Comisura labial</td>
+                    <td>Nervio facial, Ramas bucales</td>
+                    <td>Eleva la comisura labial</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Risorio</td>
+                    <td>Fascia que cubre al músculo masetero</td>
+                    <td>Ángulo de la boca</td>
+                    <td>Ramos bucales del nervio facial</td>
+                    <td>Retrae el ángulo de la boca</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Buccinador</td>
+                    <td>Porción posterior de la apófisis alveolar del maxilar</td>
+                    <td>Ángulo de la boca</td>
+                    <td>Ramas bucales del nervio facial</td>
+                    <td>Comprime la mejilla, expele el aire entre los labios y ayuda a la masticación</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Mentoniano</td>
+                    <td>Fosa sobre el incisivo mandibular</td>
+                    <td>Piel del mentón</td>
+                    <td>Rama mandibular del nervio facial</td>
+                    <td>Eleva y protruye el labio inferior</td>
+                    </tr>
+
+                    <tr>
+                    <td>Depresor del labio inferior</td>
+                    <td>Cara lateral de la mandíbula entre la sínfisis y agujero mentoniano</td>
+                    <td>Piel del labio inferior</td>
+                    <td>Ramas marginales de la mandíbula y bucales del nervio facial</td>
+                    <td>Deprime el labio y tira de él lateralmente</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Depresor del ángulo de la boca</td>
+                    <td>Línea oblicua de la mandíbula</td>
+                    <td>Ángulo de la boca</td>
+                    <td>Ramas marginales de la mandíbula y bucales del nervio facial</td>
+                    <td>Deprime el ángulo de la boca</td>
+                    </tr>
+                        
+                    <tr>
+                    <td>Cigomático mayor</td>
+                    <td>Cara lateral del hueso Cigomático</td>
+                    <td>Comisura labial</td>
+                    <td>Nervio facial, ramas cigomático</td>
+                    <td>Tracciona la comisura labial superolateralmente</td>                        </tr>
+                        
+                    <tr>
+                    <td>Cigomático menor</td>
+                    <td>Cara lateral del hueso Cigomático</td>
+                    <td>Piel del labio superior</td>
+                    <td>Nervio facial, ramas bucales</td>
+                    <td>Eleva el labio superior</td>                        </tr>
+                        
+                        <tr>
+                            <td>Masetero</td>
+                            <td>Arco cigomático</td>
+                            <td>Rama de la mandíbula y apófisis coronoides</td>
+                            <td>Nervio mandibular</td>
+                            <td>Eleva y protruye la mandíbula</td>
+                            </tr>
+                            
+                            <tr>
+                            <td>Temporal</td>
+                            <td>Fosa temporal</td>
+                            <td>Apófisis coronoides</td>
+                            <td>Nervio temporales profundos</td>
+                            <td>Eleva la mandíbula</td>
+                            </tr>
+                            
+                            <tr>
+                            <td>Pterigoideo medial</td>
+                            <td>Apófisis piramidal del hueso palatino</td>
+                            <td>Cara medial de la rama y ángulo de la mandíbula</td>
+                            <td>Nervio pterigoideo medial</td>
+                            <td>Protruye y eleva la mandíbula</td>
+                            </tr>
+                            
+                            <tr>
+                            <td>Pterigoideo lateral Cabeza superior</td>
+                            <td>Cara infratemporal del ala mayor del esfenoides</td>
+                            <td>Fosita pterigoidea</td>
+                            <td>Nervio mandibular</td>
+                            <td>Protruye la mandíbula</td>
+                            </tr>
+                            
+                            <tr>
+                            <td>Pterigoideo lateral Cabeza inferior</td>
+                            <td>Lámina lateral de la pterigoides</td>
+                            <td>Fosita pterigoidea</td>
+                            <td>Nervio mandibular</td>
+                            <td>Produce movimientos de molturación lateral</td>
+                            </tr>
+
+                            <tr>
+                                <td>Platisma</td>
+                                <td>Piel por debajo de la clavícula</td>
+                                <td>Mandíbula</td>
+                                <td>Nervio Facial</td>
+                                <td>Tensa la piel del cuello</td>
+                                </tr>
+                                
+                                <tr>
+                                <td>Esternocleidomastoideo cabeza esternal</td>
+                                <td>Cara anterior del manubrio del esternón</td>
+                                <td>Cara lateral de la apófisis mastoides</td>
+                                <td>Nervio accesorio</td>
+                                <td>Flexiona la cabeza, eleva el tórax</td>
+                                </tr>
+                                
+                                <tr>
+                                <td>Esternocleidomastoideo cabeza clavicular</td>
+                                <td>Cara superior del ⅓ medial de la clavícula</td>
+                                <td>Cara lateral de la apófisis mastoides</td>
+                                <td>Nervio accesorio</td>
+                                <td>Gira la cara hacia el lado opuesto</td>
+                                </tr>
+                                
+                                <tr>
+                                <td>Digástrico anterior</td>
+                                <td>Fosa digástrica de la mandíbula</td>
+                                <td>Cuerpo del hioides</td>
+                                <td>Nervio milohioideo</td>
+                                <td>Eleva el hioides y la base de la lengua y abre la boca mediante el descenso de la mandíbula</td>
+                                </tr>
+                                
+                                <tr>
+                                <td>Digástrico posterior</td>
+                                <td>Escotadura mastoidea del temporal</td>
+                                <td>Cuerpo del hioides</td>
+                                <td>Nervio facial</td>
+                                <td>Eleva el hioides y la base de la lengua y abre la boca mediante el descenso de la mandíbula</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Estilohioideo</td>
+                                    <td>Borde posterior de la apófisis estiloides</td>
+                                    <td>Cuerpo del hioides</td>
+                                    <td>Nervio facial</td>
+                                    <td>Eleva el hioides y la base de la lengua.</td>
+                                </tr>
+                                <tr>
+                                    <td>Milohioideo</td>
+                                    <td>Línea milohioidea de la mandíbula</td>
+                                    <td>Cuerpo del hioides</td>
+                                    <td>Nervio milohioideo</td>
+                                    <td>Eleva el hioides, la base de la lengua y desciende la mandíbula.</td>
+                                </tr>
+                                <tr>
+                                    <td>Genihioideo</td>
+                                    <td>Espina mentoniana inferior</td>
+                                    <td>Cara anterior del cuerpo del hioides</td>
+                                    <td>Nervio hipogloso</td>
+                                    <td>Eleva el hioides y desciende la mandíbula.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Esternohioideo</td>
+                                    <td>Cara posterior del manubrio del esternón</td>
+                                    <td>Línea oblicua en la lámina del cartílago tiroides</td>
+                                    <td>Asa cervical</td>
+                                    <td>Descienden la laringe y el cartílago tiroides.</td>
+                                </tr>
+                                <tr>
+                                    <td>Omohioideo superior</td>
+                                    <td>Tendón intermedio</td>
+                                    <td>Cuerpo del hioides</td>
+                                    <td>Asa cervical</td>
+                                    <td>Fija el hioides y lo desciende.</td>
+                                </tr>
+                                <tr>
+                                    <td>Omohioideo inferior</td>
+                                    <td>Borde superior de la escápula y ligamento transverso superior</td>
+                                    <td>Tendón intermedio</td>
+                                    <td>Asa cervical</td>
+                                    <td>Fija el hioides y lo desciende.</td>
+                                </tr>
+                                <tr>
+                                    <td>Esternotiroideo</td>
+                                    <td>Cara posterior del manubrio del esternón</td>
+                                    <td>Línea oblicua en la lámina del cartílago tiroides</td>
+                                    <td>Asa cervical</td>
+                                    <td>Descienden la laringe y el cartílago tiroides.</td>
+                                </tr>
+                                <tr>
+                                    <td>Tirohioideo</td>
+                                    <td>Línea oblicua en la lámina del cartílago tiroides</td>
+                                    <td>Borde inferior del cuerpo y asta mayor del hioides</td>
+                                    <td>Nervio hipogloso</td>
+                                    <td>Desciende la laringe y el hioides, eleva el cartílago tiroides.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Escaleno anterior</td>
+                                    <td>Tubérculos anteriores de las apófisis transversas C3-C6</td>
+                                    <td>Tubérculo del músculo escaleno en la 1ra costilla</td>
+                                    <td>Ramas anteriores de los nervios espinales C4-C6</td>
+                                    <td>Eleva la primera costilla (Ayuda en la inspiración), Flexiona e inclina lateralmente el cuello.</td>
+                                </tr>
+                                <tr>
+                                    <td>Escaleno medio</td>
+                                    <td>Tubérculos posteriores de las apófisis transversas C2-C7</td>
+                                    <td>Cara superior de la primera costilla, posterior al surco de la arteria subclavia</td>
+                                    <td>Ramas anteriores de los nervios espinales C3-C8</td>
+                                    <td>Eleva la primera costilla (Ayuda en la inspiración), Flexiona e inclina lateralmente el cuello.</td>
+                                </tr>
+                                <tr>
+                                    <td>Escaleno posterior</td>
+                                    <td>Tubérculos posteriores de las apófisis transversas C4-C6</td>
+                                    <td>Borde superior de la segunda costilla</td>
+                                    <td>Ramas anteriores de los nervios espinales C6-C8</td>
+                                    <td>Eleva la segunda costilla (Ayuda en la inspiración), Flexiona e inclina lateralmente el cuello.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Estilofaríngeo</td>
+                                    <td>Cara medial de la apófisis estiloides</td>
+                                    <td>Pared de la faringe</td>
+                                    <td>Nervio glosofaríngeo</td>
+                                    <td>Eleva la faringe y la laringe durante la deglución y el habla.</td>
+                                </tr>
+                                <tr>
+                                    <td>Salpingofaringeo</td>
+                                    <td>Trompa auditiva</td>
+                                    <td>Pared lateral de la faringe</td>
+                                    <td>Nervio vago</td>
+                                    <td>Eleva la faringe y la laringe durante la deglución y el habla.</td>
+                                </tr>
+                                <tr>
+                                    <td>Palatofaríngeo</td>
+                                    <td>Paladar duro</td>
+                                    <td>Pared lateral de la faringe</td>
+                                    <td>Nervio vago</td>
+                                    <td>Tensa el paladar blando y tracciona las paredes de la faringe superior.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Esplenio de la cabeza</td>
+                                    <td>Ligamento nucal y apófisis espinosas C7-T3</td>
+                                    <td>Apófisis mastoides del temporal</td>
+                                    <td>Ramas dorsales de nervios cervicales medios</td>
+                                    <td>Extiende la cabeza, flexiona lateralmente y rota la cara hacia el mismo lado.</td>
+                                </tr>
+                                <tr>
+                                    <td>Esplenio cervical</td>
+                                    <td>Apófisis espinosas T3-T3</td>
+                                    <td>Apófisis transversas C1-C3</td>
+                                    <td>Ramas dorsales de nervios cervicales inferiores</td>
+                                    <td>Extiende el cuello, flexiona lateralmente y rota el cuello hacia el mismo lado.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Interespinosos cervicales, torácicos y lumbares</td>
+                                    <td>Apófisis espinosa</td>
+                                    <td>Apófisis espinosa adyacente</td>
+                                    <td>Ramas dorsales de nervios espinales</td>
+                                    <td>Ayuda en la extensión de la columna vértebral.</td>
+                                </tr>
+                                <tr>
+                                    <td>Intertransversos cervicales, torácicos y lumbares</td>
+                                    <td>Apófisis transversas de las vértebras adyacentes</td>
+                                    <td>Apófisis transversas de vértebras adyacentes</td>
+                                    <td>Ramas dorsales de nervios espinales</td>
+                                    <td>Ayuda en la flexión lateral de la columna vertebral.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Multífidos</td>
+                                    <td>Sacro, ilion</td>
+                                    <td>Apófisis espinosas de vértebras situadas por encima</td>
+                                    <td>Ramas dorsales de cada región</td>
+                                    <td>Estabiliza la columna vertebral.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Trapecio Porción Descendente</td>
+                                    <td>Línea nuca y Protuberancia occipital externa</td>
+                                    <td>Tercio lateral de la clavícula</td>
+                                    <td>Nervio accesorio</td>
+                                    <td>Eleva la escápula y ayuda en la rotación.</td>
+                                </tr>
+                                <tr>
+                                    <td>Trapecio Porción Transversa</td>
+                                    <td>Apófisis espinosas C7-T3</td>
+                                    <td>Acromion de la escápula</td>
+                                    <td>Nervio accesorio</td>
+                                    <td>Retracción escapular.</td>
+                                </tr>
+                                <tr>
+                                    <td>Trapecio Porción Ascendente</td>
+                                    <td>Apófisis espinosas T6-T12</td>
+                                    <td>Espina de la escápula</td>
+                                    <td>Nervio accesorio</td>
+                                    <td>Desciende la escápula.</td>
+                                </tr>
+                                <tr>
+                                    <td>Dorsal ancho Porción Vertebral</td>
+                                    <td>Apófisis espinosas T7-T12 y fascia toracolumbar</td>
+                                    <td>Surco intertubercular del húmero</td>
+                                    <td>Nervio toracodorsal C6-C8</td>
+                                    <td>Extensión del brazo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Dorsal ancho Porción ilíaca</td>
+                                    <td>Cresta iliaca</td>
+                                    <td>Surco intertubercular del húmero</td>
+                                    <td>Nervio toracodorsal C6-C8</td>
+                                    <td>Aducción del brazo.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Dorsal ancho Porción Costal</td>
+                                    <td>Últimas 3-4 costillas</td>
+                                    <td>Surco intertubercular del húmero</td>
+                                    <td>Nervio toracodorsal C6-C8</td>
+                                    <td>Rotación medial del brazo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Dorsal ancho Porción Escapular</td>
+                                    <td>Ángulo inferior de la escápula</td>
+                                    <td>Surco intertubercular del húmero</td>
+                                    <td>Nervio toracodorsal C6-C8</td>
+                                    <td>Elevación del tronco.</td>
+                                </tr>
+                                <tr>
+                                    <td>Romboides mayor</td>
+                                    <td>Apófisis espinosas T2-T5</td>
+                                    <td>Borde medial de la escápula</td>
+                                    <td>Nervio dorsal de la escápula</td>
+                                    <td>Fija la escápula a la pared torácica y la retrae y rota.</td>
+                                </tr>
+                                <tr>
+                                    <td>Romboides menor</td>
+                                    <td>Ligamento nucal y apófisis espinosas C7-T1</td>
+                                    <td>Borde medial de la escápula a nivel de la espina de la escápula</td>
+                                    <td>Nervio dorsal de la escápula</td>
+                                    <td>Fija la escápula a la pared torácica y la retrae y rota.</td>
+                                </tr>
+                                <tr>
+                                    <td>Elevador de la escápula</td>
+                                    <td>Tubérculos posteriores de las apófisis transversas C1-C4</td>
+                                    <td>Borde medial de la escápula desde el ángulo superior hasta la espina</td>
+                                    <td>Ramas ventrales de C3-C4 y Nervio dorsal de la escápula</td>
+                                    <td>Eleva la escápula medialmente, y rota la cavidad glenoidea.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Serrato postero superior</td>
+                                    <td>Apófisis espinosas de T11-L2</td>
+                                    <td>Parte inferior de las costillas 9-12</td>
+                                    <td>Ramas ventrales de nervios torácicos inferiores</td>
+                                    <td>Desciende las costillas.</td>
+                                </tr>
+                                <tr>
+                                    <td>Serrato postero inferior</td>
+                                    <td>Ligamento nucal y Apófisis espinosas de C7-T12</td>
+                                    <td>Parte superior de las costillas 2-4</td>
+                                    <td>Ramas ventrales de nervios torácicos superiores</td>
+                                    <td></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Pectoral menor</td>
+                                    <td>Cara externa del borde superior de las costillas 3-5</td>
+                                    <td>Apófisis coracoides de la escápula</td>
+                                    <td>Nervio pectoral medial</td>
+                                    <td>Desciende el ángulo lateral de la escápula y la lleva hacia adelante.</td>
+                                </tr>
+                                <tr>
+                                    <td>Subclavio</td>
+                                    <td>Borde superior de la 1ra costilla y su cartílago</td>
+                                    <td>Cara inferior del tercio medio de la clavícula</td>
+                                    <td>Nervio subclavio</td>
+                                    <td>Fija y desciende la clavícula.</td>
+                                </tr>
+                                <tr>
+                                    <td>Serrato anterior</td>
+                                    <td>Caras laterales de las costillas 8-9</td>
+                                    <td>Borde medial de la escápula</td>
+                                    <td>Nervio torácico largo</td>
+                                    <td>Lleva la escápula hacia adelante y la mantiene contra la pared torácica.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Transverso del tórax</td>
+                                    <td>Cara interna de los cartílagos costales 2-6</td>
+                                    <td>Cara posterior de la porción inferior del esternón</td>
+                                    <td>Nervios intercostales</td>
+                                    <td>Desciende las costillas y los cartílagos costales.</td>
+                                </tr>
+                                <tr>
+                                    <td>Elevador de las costillas</td>
+                                    <td>Apófisis transversas de C7 y T1-T11</td>
+                                    <td>Costillas subyacentes, entre el tubérculo y el ángulo</td>
+                                    <td>Rama dorsal de nervios torácicos inferiores</td>
+                                    <td>Elevan las costillas.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Recto abdominal</td>
+                                    <td>Sínfisis del pubis, cresta del pubis</td>
+                                    <td>Apófisis xifoides, cartílagos costales 5-7</td>
+                                    <td>Ramas ventrales de los seis nervios torácicos inferiores</td>
+                                    <td>Flexiona el tronco y comprime las vísceras abdominales.</td>
+                                </tr>
+                                <tr>
+                                    <td>Oblicuo externo</td>
+                                    <td>Caras externas de las costillas 5-12</td>
+                                    <td>Línea alba y tubérculo del pubis</td>
+                                    <td>Ramas ventrales de los seis nervios torácicos inferiores</td>
+                                    <td>Comprime y sostiene las vísceras abdominales, flexiona y rota el tronco.</td>
+                                </tr>
+                                <tr>
+                                    <td>Oblicuo interno</td>
+                                    <td>Fascia toracolumbar, cresta iliaca</td>
+                                    <td>Bordes inferiores de las costillas 10-12</td>
+                                    <td>Ramas ventrales de los seis nervios torácicos inferiores</td>
+                                    <td>Comprime y sostiene las vísceras abdominales, flexiona y rota el tronco.</td>
+                                </tr>
+                                <tr>
+                                    <td>Transverso del abdomen</td>
+                                    <td>Caras internas de los cartílagos costales 7-12, cresta iliaca</td>
+                                    <td>Línea alba con la aponeurosis del oblicuo interno</td>
+                                    <td>Ramas ventrales de los seis nervios torácicos inferiores</td>
+                                    <td>Comprime y sostiene las vísceras abdominales.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Recto femoral</td>
+                                    <td>Espina Ilíaca anteroinferior</td>
+                                    <td>Rótula</td>
+                                    <td>Nervio Femoral</td>
+                                    <td>Extensión de la pierna y flexión del muslo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Vasto lateral</td>
+                                    <td>Trocánter mayor</td>
+                                    <td>Rótula</td>
+                                    <td>Nervio Femoral</td>
+                                    <td>Extensión de la pierna.</td>
+                                </tr>
+                                <tr>
+                                    <td>Vasto medial</td>
+                                    <td>Línea intertrocantérica</td>
+                                    <td>Rótula</td>
+                                    <td>Nervio Femoral</td>
+                                    <td>Extensión de la pierna.</td>
+                                </tr>
+                                <tr>
+                                    <td>Vasto intermedio</td>
+                                    <td>Cara anterior y lateral del cuerpo del fémur</td>
+                                    <td>Rótula</td>
+                                    <td>Nervio Femoral</td>
+                                    <td>Extensión de la pierna.</td>
+                                </tr>
+                                <tr>
+                                    <td>Sartorio</td>
+                                    <td>Espina Ilíaca anterosuperior</td>
+                                    <td>Porción superior de la cara medial de la tibia</td>
+                                    <td>Nervio Femoral</td>
+                                    <td>Abduce, rota lateralmente y flexiona el muslo.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Aductor largo</td>
+                                    <td>Cuerpo del pubis</td>
+                                    <td>Línea áspera del fémur</td>
+                                    <td>Nervio obturador L2-L4</td>
+                                    <td>Aduce y rota medialmente el muslo, ayuda en la flexión del muslo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Aductor corto</td>
+                                    <td>Rama inferior del pubis</td>
+                                    <td>Línea pectínea y parte proximal de la línea áspera del fémur.</td>
+                                    <td>Nervio obturador L2-L4</td>
+                                    <td>Aduce y rota medialmente el muslo, ayuda en la flexión del muslo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Aductor mayor</td>
+                                    <td>Porción Aductora: Rama inferior del pubis</td>
+                                    <td>Tuberosidad glútea, línea áspera</td>
+                                    <td>Nervio obturador L2-L4</td>
+                                    <td>Aduce y flexiona el muslo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Aductor mayor</td>
+                                    <td>Porción isquiotibial: Rama del isquion</td>
+                                    <td>Tubérculo del abductor del fémur</td>
+                                    <td>Nervio ciático L4</td>
+                                    <td>Extiende el muslo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Pectíneo</td>
+                                    <td>Rama superior del pubis</td>
+                                    <td>Línea pectínea del fémur</td>
+                                    <td>Nervio femoral</td>
+                                    <td>Aduce y flexiona el muslo a nivel de la cadera.</td>
+                                </tr>
+                                <tr>
+                                    <td>Grácil</td>
+                                    <td>Cuerpo y rama inferior del pubis</td>
+                                    <td>Porción superior de la cara medial de la tibia</td>
+                                    <td>Nervio obturador</td>
+                                    <td>Abduce el muslo, flexiona y rota medialmente la pierna.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Bíceps femoral Cabeza larga</td>
+                                    <td>Tuberosidad isquiática</td>
+                                    <td>Cara lateral de la cabeza del peroné</td>
+                                    <td>Nervio ciático (L5-S2)</td>
+                                    <td>Flexiona y rota lateralmente la pierna y extiende el muslo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Bíceps femoral Cabeza corta</td>
+                                    <td>Línea áspera y línea supracondílea lateral del fémur</td>
+                                    <td>Cara lateral de la cabeza del peroné</td>
+                                    <td>Nervio ciático</td>
+                                    <td>Flexiona y rota lateralmente la pierna y extiende el muslo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Semitendinoso</td>
+                                    <td>Tuberosidad isquiática</td>
+                                    <td>Porción superior de la cara medial de la tibia</td>
+                                    <td>Nervio ciático</td>
+                                    <td>Flexiona la pierna y extiende el muslo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Semimembranoso</td>
+                                    <td>Tuberosidad isquiática</td>
+                                    <td>Porción posterior del cóndilo medial de la tibia</td>
+                                    <td>Nervio Ciático</td>
+                                    <td>Flexiona la pierna y extiende el muslo.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Tensor de la fascia lata</td>
+                                    <td>Espina Ilíaca anterosuperior</td>
+                                    <td>Tracto iliotibial</td>
+                                    <td>Nervio Glúteo superior</td>
+                                    <td>Abduce, rota medialmente y flexiona el muslo (También ayuda a mantener la rodilla extendida).</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Tibial anterior</td>
+                                    <td>Cóndilo lateral</td>
+                                    <td>Cuneiforme medial y base del 1er metatarsiano</td>
+                                    <td>Nervio peroneo profundo</td>
+                                    <td>Flexiona dorsalmente el pie y ayuda a la eversión del pie.</td>
+                                </tr>
+                                <tr>
+                                    <td>Extensor largo de los dedos</td>
+                                    <td>Cóndilo lateral de la tibia</td>
+                                    <td>Falanges media y distal de los cuatro dedos laterales</td>
+                                    <td>Nervio peroneo profundo</td>
+                                    <td>Extiende los cuatro dedos laterales y flexiona dorsalmente el pie.</td>
+                                </tr>
+                                <tr>
+                                    <td>Extensor largo del hallux</td>
+                                    <td>Cara anterior del peroné</td>
+                                    <td>Cara dorsal de la base de la falange distal del dedo gordo</td>
+                                    <td>Nervio peroneo profundo</td>
+                                    <td>Extiende el dedo gordo y flexiona dorsalmente el pie.</td>
+                                </tr>
+                                <tr>
+                                    <td>Peroneo tercero</td>
+                                    <td>Cara anterior del peroné</td>
+                                    <td>Dorso de la base del 5to metatarsiano</td>
+                                    <td>Nervio peroneo profundo</td>
+                                    <td>Flexiona dorsalmente el pie y ayuda a la eversión del pie.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Peroneo largo</td>
+                                    <td>Cara lateral del peroné</td>
+                                    <td>Cara plantar de la base del 1er metatarsiano y cuneiforme medial</td>
+                                    <td>Nervio peroneo superficial</td>
+                                    <td>Evierte el pie y débilmente flexiona plantarmente el pie.</td>
+                                </tr>
+                                <tr>
+                                    <td>Peroneo corto</td>
+                                    <td>Cara lateral del peroné</td>
+                                    <td>Cara dorsal de la tuberosidad del 5to hueso metatarsiano</td>
+                                    <td>Nervio peroneo superficial</td>
+                                    <td>Evierte el pie y débilmente flexiona plantarmente el pie.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Gastrocnemio Cabeza lateral</td>
+                                    <td>Cara lateral del cóndilo lateral del fémur</td>
+                                    <td>Cara posterior del calcáneo</td>
+                                    <td>Nervio tibial</td>
+                                    <td>Flexiona plantarmente el pie, eleva el talón durante la marcha y ayuda en la flexión de la articulación de la rodilla.</td>
+                                </tr>
+                                <tr>
+                                    <td>Gastrocnemio Cabeza medial</td>
+                                    <td>Cara poplítea por encima del cóndilo medial del fémur</td>
+                                    <td>Cara posterior del calcáneo</td>
+                                    <td>Nervio tibial</td>
+                                    <td>Flexiona plantarmente el pie, eleva el talón durante la marcha y ayuda en la flexión de la articulación de la rodilla.</td>
+                                </tr>
+                                <tr>
+                                    <td>Sóleo</td>
+                                    <td>Cara posterior de la cabeza del peroné</td>
+                                    <td>Cara posterior del calcáneo</td>
+                                    <td>Nervio tibial</td>
+                                    <td>Flexiona plantarmente el pie y estabiliza la pierna sobre el pie.</td>
+                                </tr>
+                                <tr>
+                                    <td>Plantar</td>
+                                    <td>Línea supracondílea lateral del fémur</td>
+                                    <td>Cara posterior del calcáneo</td>
+                                    <td>Nervio tibial</td>
+                                    <td>Ayuda débilmente las funciones del gastrocnemio.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Tibial posterior</td>
+                                    <td>Cara posterior de la tibia</td>
+                                    <td>Tuberosidad del hueso navicular</td>
+                                    <td>Nervio tibial</td>
+                                    <td>Flexiona plantarmente el pie e invierte el pie.</td>
+                                </tr>
+                                <tr>
+                                    <td>Flexor largo de los dedos</td>
+                                    <td>Parte medial de la cara posterior de la tibia</td>
+                                    <td>Cara plantar de las bases de las falanges distales de los cuatro dedos laterales</td>
+                                    <td>Nervio tibial</td>
+                                    <td>Flexiona los cuatro dedos laterales, flexiona plantarmente el pie y sostiene los arcos longitudinales del pie.</td>
+                                </tr>
+                                <tr>
+                                    <td>Flexor largo del hallux</td>
+                                    <td>Cara posterior del peroné</td>
+                                    <td>Base de la falange distal del hallux</td>
+                                    <td>Nervio tibial</td>
+                                    <td>Flexiona todas las articulaciones del dedo gordo y débilmente flexiona plantarmente el pie.</td>
+                                </tr>
+                                <tr>
+                                    <td>Poplíteo</td>
+                                    <td>Cara lateral del cóndilo lateral del fémur</td>
+                                    <td>Porción posterior de la tibia</td>
+                                    <td>Nervio tibial (L4-S1)</td>
+                                    <td>Flexiona débilmente la rodilla y la bloquea rotando el fémur sobre la tibia fijada.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Extensor corto del hallux</td>
+                                    <td>Cara superolateral del calcáneo</td>
+                                    <td>El primer tendón en la cara dorsal de la base de la falange proximal del dedo gordo, los otros tres tendones en las caras laterales de los tendones del extensor largo de los dedos para los dedos 2-4</td>
+                                    <td>Nervio peroneo profundo</td>
+                                    <td>Ayudan al extensor largo de los dedos en la extensión de los cuatro dedos mediales.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Abductor del hallux</td>
+                                    <td>Apófisis medial de la tuberosidad del calcáneo</td>
+                                    <td>Cara medial de la base de la falange proximal del 1er dedo</td>
+                                    <td>Nervio plantar medial</td>
+                                    <td>Abduce y flexiona el 1er dedo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Abductor del dedo pequeño</td>
+                                    <td>Hueso pisiforme y tendón del flexor cubital del carpo</td>
+                                    <td>Cara medial de la base de la falange proximal del dedo meñique (5to dedo)</td>
+                                    <td>Nervio cubital</td>
+                                    <td>Abduce el dedo meñique.</td>
+                                </tr>
+                                <tr>
+                                    <td>Flexor corto de los dedos</td>
+                                    <td>Apófisis medial de la tuberosidad del calcáneo</td>
+                                    <td>Ambos lados de las falanges medias de los cuatro dedos laterales</td>
+                                    <td>Nervio plantar medial</td>
+                                    <td>Flexiona del 2do al 5to dedo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Cuadrado plantar</td>
+                                    <td>Lados medial y lateral de la cara plantar del calcáneo</td>
+                                    <td>Borde posterolateral del tendón del flexor largo de los dedos</td>
+                                    <td>Nervio plantar lateral</td>
+                                    <td>Corrige la tracción oblicua del tendón del flexor largo de los dedos, ayuda a la flexión de los dedos del pie.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Glúteo mayor</td>
+                                    <td>Porción posterior del ilion</td>
+                                    <td>Tracto iliotibial y tuberosidad glútea</td>
+                                    <td>Nervio glúteo inferior</td>
+                                    <td>Extensión, rotación lateral y aducción del muslo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Glúteo medio</td>
+                                    <td>Cara lateral del ilion</td>
+                                    <td>Trocánter mayor del fémur</td>
+                                    <td>Nervio glúteo superior</td>
+                                    <td>Abduce y rota medialmente el muslo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Glúteo menor</td>
+                                    <td>Cara lateral del ilion</td>
+                                    <td>Trocánter mayor del fémur</td>
+                                    <td>Nervio glúteo superior</td>
+                                    <td>Abduce y rota medialmente el muslo.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Piriforme o Piramidal</td>
+                                    <td>Cara anterior de los segmentos sacros 2-4</td>
+                                    <td>Trocánter mayor del fémur</td>
+                                    <td>Ramos ventrales de L5, S1 y S2</td>
+                                    <td>Rota lateralmente el muslo extendido, abduce el muslo flexionado al nivel de la cadera.</td>
+                                </tr>
+                                <tr>
+                                    <td>Obturador interno</td>
+                                    <td>Membrana obturatriz</td>
+                                    <td>Trocánter mayor del fémur</td>
+                                    <td>Nervio del obturador interno</td>
+                                    <td>Rota lateralmente el muslo extendido, abduce el muslo flexionado al nivel de la cadera.</td>
+                                </tr>
+                                <tr>
+                                    <td>Gemino superior</td>
+                                    <td>Espina ciática</td>
+                                    <td>Trocánter mayor del fémur</td>
+                                    <td>Nervio del obturador interno</td>
+                                    <td>Rota lateralmente el muslo extendido a nivel de la cadera.</td>
+                                </tr>
+                                <tr>
+                                    <td>Gemino inferior</td>
+                                    <td>Tuberosidad isquiática</td>
+                                    <td>Trocánter mayor del fémur</td>
+                                    <td>Nervio del cuadrado femoral</td>
+                                    <td>Rota lateralmente el muslo extendido a nivel de la cadera.</td>
+                                </tr>
+                                <tr>
+                                    <td>Cuadrado femoral</td>
+                                    <td>Tuberosidad isquiática</td>
+                                    <td>Tubérculo cuadrado</td>
+                                    <td>Nervio del cuadrado femoral</td>
+                                    <td>Rota lateralmente el muslo a nivel de la cadera.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Deltoides anterior</td>
+                                    <td>Tercio lateral de la clavícula</td>
+                                    <td>Tuberosidad deltoidea del húmero</td>
+                                    <td>Nervio axilar (C5-C6)</td>
+                                    <td>Flexión y rotación medial del brazo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Deltoides medio</td>
+                                    <td>Acromion de la escápula</td>
+                                    <td>Tuberosidad deltoidea del húmero</td>
+                                    <td>Nervio axilar (C5-C6)</td>
+                                    <td>Abducción del brazo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Deltoides posterior</td>
+                                    <td>Espina de la escápula</td>
+                                    <td>Tuberosidad deltoidea del húmero</td>
+                                    <td>Nervio axilar (C5-C6)</td>
+                                    <td>Extensión y rotación lateral del brazo.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Supraespinoso</td>
+                                    <td>Fosa supraespinosa de la escápula</td>
+                                    <td>Tubérculo mayor del húmero</td>
+                                    <td>Nervio supraescapular</td>
+                                    <td>Inicia la abducción del brazo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Infraespinoso</td>
+                                    <td>Fosa infraespinosa de la escápula</td>
+                                    <td>Tubérculo mayor del húmero</td>
+                                    <td>Nervio supraescapular</td>
+                                    <td>Rotación lateral del brazo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Subescapular</td>
+                                    <td>Fosa subescapular</td>
+                                    <td>Tubérculo menor del húmero</td>
+                                    <td>Nervio supraescapular superior e inferior</td>
+                                    <td>Rota medialmente el brazo a nivel del hombro y lo aduce (también ayuda a mantener la cabeza del húmero en la cavidad glenoidea).</td>
+                                </tr>
+                                <tr>
+                                    <td>Redondo menor</td>
+                                    <td>Borde lateral de la escápula</td>
+                                    <td>Tubérculo mayor del húmero</td>
+                                    <td>Nervio axilar</td>
+                                    <td>Rota lateralmente el brazo.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Bíceps braquial cabeza larga</td>
+                                    <td>Tubérculo supraglenoideo de la escápula</td>
+                                    <td>Tuberosidad del radio</td>
+                                    <td>Nervio musculocutáneo (C5-C6)</td>
+                                    <td>Flexiona y supina el antebrazo a nivel del codo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Bíceps braquial cabeza corta</td>
+                                    <td>Apófisis coracoides de la escápula</td>
+                                    <td>Tuberosidad del radio</td>
+                                    <td>Nervio musculocutáneo (C5-C6)</td>
+                                    <td>Flexiona y supina el antebrazo a nivel del codo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Braquial</td>
+                                    <td>Cara anterior del húmero</td>
+                                    <td>Apófisis coronoides y tuberosidad del cúbito</td>
+                                    <td>Nervio musculocutáneo y radial (C7)</td>
+                                    <td>Flexiona el antebrazo a nivel del codo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Coracobraquial</td>
+                                    <td>Apófisis coracoides</td>
+                                    <td>Cara medial del húmero</td>
+                                    <td>Nervio musculocutáneo</td>
+                                    <td>Flexiona y abduce el brazo a nivel del hombro.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Tríceps braquial cabeza larga</td>
+                                    <td>Tubérculo Infraglenoideo de la escápula</td>
+                                    <td>Cara posterior del olécranon del cúbito</td>
+                                    <td>Nervio radial</td>
+                                    <td>Extiende el antebrazo a nivel del codo y extiende y aduce el brazo a nivel del hombro.</td>
+                                </tr>
+                                <tr>
+                                    <td>Tríceps braquial cabeza lateral</td>
+                                    <td>Cara posterior del húmero</td>
+                                    <td>Cara posterior del olécranon del cúbito</td>
+                                    <td>Nervio radial</td>
+                                    <td>Lo mismo que la cabeza larga.</td>
+                                </tr>
+                                <tr>
+                                    <td>Tríceps braquial cabeza medial</td>
+                                    <td>Cara medial y posterior del húmero</td>
+                                    <td>Cara posterior del olécranon del cúbito</td>
+                                    <td>Nervio radial</td>
+                                    <td>Lo mismo que la cabeza larga.</td>
+                                </tr>
+                                <tr>
+                                    <td>Ancóneo</td>
+                                    <td>Cara posterior del epicóndilo lateral del húmero</td>
+                                    <td>Cara lateral del olécranon</td>
+                                    <td>Nervio radial (C5-T1)</td>
+                                    <td>Ayuda al tríceps braquial en la extensión del codo, abduce el cúbito en la pronación.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Pronador redondo</td>
+                                    <td>Epicóndilo medial del húmero y epífisis coronoides del cúbito</td>
+                                    <td>Porción media de la cara lateral del radio</td>
+                                    <td>Nervio mediano</td>
+                                    <td>Prona el antebrazo y ayuda en la flexión del codo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Flexor radial del carpo</td>
+                                    <td>Epicóndilo medial del húmero</td>
+                                    <td>Base del 2do metacarpiano</td>
+                                    <td>Nervio mediano</td>
+                                    <td>Flexiona y abduce la mano a nivel del carpo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Palmar largo</td>
+                                    <td>Epicóndilo medial del húmero</td>
+                                    <td>Retináculo flexor</td>
+                                    <td>Nervio mediano</td>
+                                    <td>Flexiona la mano y tensa la aponeurosis palmar.</td>
+                                </tr>
+                                <tr>
+                                    <td>Flexor cubital del carpo cabeza humeral</td>
+                                    <td>Epicóndilo medial del húmero</td>
+                                    <td>Hueso pisiforme y base del 5to metacarpiano</td>
+                                    <td>Nervio cubital</td>
+                                    <td>Flexiona y abduce la mano a nivel del carpo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Flexor cubital del carpo cabeza cubital</td>
+                                    <td>Olécranon y borde posterior del cúbito</td>
+                                    <td>Hueso pisiforme y base del 5to metacarpiano</td>
+                                    <td>Nervio cubital</td>
+                                    <td>Flexiona y abduce la mano a nivel del carpo.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Flexor superficial de los dedos cabeza humerocubital</td>
+                                    <td>Epicóndilo medial del húmero y apófisis coronoides</td>
+                                    <td>Cuerpo de las falanges medias de los cuatro dedos mediales.</td>
+                                    <td>Nervio mediano</td>
+                                    <td>Flexiona las falanges media y proximal de los cuatro dedos mediales y flexiona la mano.</td>
+                                </tr>
+                                <tr>
+                                    <td>Flexor superficial de los dedos cabeza radial</td>
+                                    <td>Mitad superior de la cara anterior del radio</td>
+                                    <td>Cuerpo de las falanges medias de los cuatro dedos mediales.</td>
+                                    <td>Nervio mediano</td>
+                                    <td>Flexiona las falanges media y proximal de los cuatro dedos mediales y flexiona la mano.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Flexor profundo de los dedos</td>
+                                    <td>Cara medial y anterior de los ¾ del cúbito</td>
+                                    <td>Cara palmar de la base de las falanges distales de los cuatro dedos mediales.</td>
+                                    <td>Nervio cubital y mediano</td>
+                                    <td>Flexiona las falanges distales de los cuatro dedos mediales.</td>
+                                </tr>
+                                <tr>
+                                    <td>Flexor largo del pulgar</td>
+                                    <td>Cara anterior del radio</td>
+                                    <td>Cara palmar de la falange distal del pulgar</td>
+                                    <td>Nervio Mediano</td>
+                                    <td>Flexiona las falanges del pulgar</td>
+                                </tr>
+                                <tr>
+                                    <td>Pronador cuadrado</td>
+                                    <td>Cara anterior del cúbito</td>
+                                    <td>Cara anterior del radio</td>
+                                    <td>Nervio mediano</td>
+                                    <td>Prona el antebrazo.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Braquiorradial</td>
+                                    <td>Cresta supracondílea lateral del húmero</td>
+                                    <td>Cara lateral del extremo distal del radio</td>
+                                    <td>Nervio radial</td>
+                                    <td>Flexiona débilmente el antebrazo cuando está semipronado.</td>
+                                </tr>
+                                <tr>
+                                    <td>Extensor radial largo del carpo</td>
+                                    <td>Cresta supracondílea lateral del húmero</td>
+                                    <td>Dorso de la base del 2do metacarpiano</td>
+                                    <td>Nervio radial</td>
+                                    <td>Extiende y abduce la mano.</td>
+                                </tr>
+                                <tr>
+                                    <td>Extensor radial corto del carpo</td>
+                                    <td>Epicóndilo lateral del húmero</td>
+                                    <td>Dorso de la base del 3er metacarpiano</td>
+                                    <td>Nervio radial</td>
+                                    <td>Extiende y abduce la mano.</td>
+                                </tr>
+                                <tr>
+                                    <td>Extensor de los dedos</td>
+                                    <td>Epicóndilo lateral del húmero</td>
+                                    <td>Expansiones extensoras de los cuatro dedos mediales</td>
+                                    <td>Nervio radial</td>
+                                    <td>Extiende los cuatro dedos mediales y ayuda en la extensión del carpo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Extensor del meñique</td>
+                                    <td>Epicóndilo lateral del húmero</td>
+                                    <td>Expansión extensora del 5to dedo</td>
+                                    <td>Nervio radial</td>
+                                    <td>Extiende el 5to dedo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Extensor cubital del carpo</td>
+                                    <td>Epicóndilo lateral del húmero</td>
+                                    <td>Dorso de la base del 5to metacarpiano</td>
+                                    <td>Nervio radial</td>
+                                    <td>Extiende y aduce la mano.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Supinador</td>
+                                    <td>Epicóndilo lateral del húmero</td>
+                                    <td>Cara lateral, posterior y anterior del tercio proximal del radio</td>
+                                    <td>Nervio radial</td>
+                                    <td>Supina el brazo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Extensor del índice</td>
+                                    <td>Cara posterior del cúbito</td>
+                                    <td>Expansión extensora del 2do dedo</td>
+                                    <td>Nervio radial</td>
+                                    <td>Extiende el 2do dedo y ayuda en la extensión de la mano.</td>
+                                </tr>
+                                <tr>
+                                    <td>Abductor largo del pulgar</td>
+                                    <td>Cara posterior del cúbito y radio</td>
+                                    <td>Base del 1er metacarpiano</td>
+                                    <td>Nervio radial</td>
+                                    <td>Abduce y extiende el pulgar.</td>
+                                </tr>
+                                <tr>
+                                    <td>Extensor largo del pulgar</td>
+                                    <td>Cara posterior del cúbito</td>
+                                    <td>Dorso de la base de la falange distal del pulgar</td>
+                                    <td>Nervio radial</td>
+                                    <td>Extiende la falange distal del pulgar.</td>
+                                </tr>
+                                <tr>
+                                    <td>Extensor corto del pulgar</td>
+                                    <td>Cara posterior del radio</td>
+                                    <td>Dorso de la base de la falange proximal del pulgar</td>
+                                    <td>Nervio radial</td>
+                                    <td>Extiende la falange proximal del pulgar.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Abductor corto del pulgar</td>
+                                    <td>Tubérculo del escafoides y trapecio</td>
+                                    <td>Cara lateral de la base de la falange proximal del pulgar</td>
+                                    <td>Nervio mediano</td>
+                                    <td>Abduce el pulgar</td>
+                                </tr>
+                                <tr>
+                                    <td>Flexor corto del pulgar</td>
+                                    <td>Tubérculo del trapecio</td>
+                                    <td>Cara lateral de la base de la falange proximal del pulgar</td>
+                                    <td>Nervio mediano</td>
+                                    <td>Flexiona la falange proximal del pulgar.</td>
+                                </tr>
+                                <tr>
+                                    <td>Oponente del pulgar</td>
+                                    <td>Tubérculo del trapecio</td>
+                                    <td>Cara lateral del 1er metacarpiano</td>
+                                    <td>Nervio mediano</td>
+                                    <td>Tracciona el 1er metacarpiano hacia delante y lo rota medialmente.</td>
+                                </tr>
+                                <tr>
+                                    <td>Aductor del pulgar</td>
+                                    <td>Cara anterior del 3er metacarpiano</td>
+                                    <td>Cara medial de la base de la falange proximal del pulgar</td>
+                                    <td>Nervio cubital</td>
+                                    <td>Aduce el pulgar.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Abductor del meñique</td>
+                                    <td>Apófisis medial y lateral de la tuberosidad del calcáneo</td>
+                                    <td>Cara lateral de la base de la falange proximal del 5to dedo</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>Flexor corto del meñique</td>
+                                    <td>Retináculo flexor y gancho del hueso ganchoso</td>
+                                    <td>Lado medial de la base de la falange proximal del dedo meñique</td>
+                                    <td>Nervio cubital</td>
+                                    <td>Flexiona la falange proximal del dedo meñique.</td>
+                                </tr>
+                                <tr>
+                                    <td>Oponente del meñique</td>
+                                    <td>Retináculo flexor y gancho del hueso ganchoso</td>
+                                    <td>Cara palmar del 5to metacarpiano</td>
+                                    <td>Nervio cubital</td>
+                                    <td>Tracciona el 5to metatarsiano anteriormente y lo rota para enfrentarlo al pulgar.</td>
+                                </tr>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+
+                                
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </tbody>
+        </table>
+    </section>
+    
+    <script>
+        function normalizarTexto(texto) {
+            return texto.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+        }
+        
+        document.getElementById('buscador').addEventListener('input', function() {
+            let filtro = normalizarTexto(this.value).split(" ");
+            let filas = document.querySelectorAll('#tabla-musculos tr');
+            
+            filas.forEach(fila => {
+                let textoFila = normalizarTexto(fila.textContent);
+                let coincide = filtro.every(palabra => textoFila.includes(palabra));
+                fila.style.display = coincide ? '' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+</Main>
+
+<footer>
+    <p>&copy; 2025 KineAtlas</p>
+</footer>
