@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KineAtlas</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    
+    <nav>
+        <ul>
+        <a href="musculos.html" class="boton-elegante">Músculos</a>
+        <a href="articulaciones.html" class="boton-elegante">Articulaciones</a>
+        <a href="about.html" class="boton-elegante">Acerca de</a>
+        <a href="notes.html" class="boton-elegante">Relase Notes</a>
+        <a href="https://forms.gle/ECS6GFRARyk4xGn79" target="_blank" class="boton-elegante">Enviar Feedback</a>
+            <script src="script.js"></script>
+</nav>
+</head>
+<body>
+   
+    <section id="inicio">
+        <h1>Bienvenid@ a "KineAtlas"</h1>
+        <p>Página en la cual podras encontrar información sobre Anatomía.</p>
+        <img src="img/esqueleto.gif" width="240" alt=""> 
+        
+        <div class="reloj" id="fecha-hora"></div>
+        <script>
+            function actualizarFechaHora() {
+                const ahora = new Date();
+                const opcionesFecha = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                const fecha = ahora.toLocaleDateString('es-ES', opcionesFecha);
+                const hora = ahora.toLocaleTimeString();
+                document.getElementById('fecha-hora').textContent = `${fecha} - ${hora}`;
+            }
+            setInterval(actualizarFechaHora, 1000);
+            actualizarFechaHora(); // Llamada inicial para que no haya retraso
+        </script>
+    </section>
+
+
+
+    
+
+</body>
+</html>
+
+</Main>
+
+<footer>
+    <p>&copy; 2025 KineAtlas - Versión 1.3</p>
+</footer>
+
+
+
+
+

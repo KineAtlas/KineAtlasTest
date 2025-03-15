@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+</head>
+<body>
+    <nav>
+        <ul>
+        <a href="index.html" class="boton-elegante">Inicio</a>
+        <a href="musculos.html" class="boton-elegante">Músculos</a>
+            <script src="script.js"></script>
+        </ul>
+    </nav>
+    
+    <section id="musculos">
+        <h2>Lista de Articulaciones</h2>
+        <input type="text" id="buscador" placeholder="Buscar Articulación...">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Unión</th>
+                    <th>Tipo</th>
+                    <th>Sub-Tipo</th>                  
+                </tr>
+            </thead>
+            <tbody id="tabla-musculos">
+              
+                <tr>
+                <td>Articulación Temporomandibular</td>
+                <td>Hueso Temporal y Mandíbula</td>
+                <td>Sinovial</td>
+                <td>Gínglimo</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Intervertebral</td>
+                <td>Cuerpos Vertebrales</td>
+                <td>Cartilaginosa</td>
+                <td>Sínfisis</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Cigoapofisiarias</td>
+                <td>Apófisis Articulares de las vértebras</td>
+                <td>Sinovial</td>
+                <td>Plana</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Atlanto-Occipital</td>
+                <td>Hueso Occipital y Atlas (C1)</td>
+                <td>Sinovial</td>
+                <td>Elipsoidea</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Atlanto-Axoidea</td>
+                <td>Hueso Atlas (C1) y Axis (C2)</td>
+                <td>Sinovial</td>
+                <td>Pivote y Plana</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Esternocostales</td>
+                <td>Esternón y Cartilagos Costales</td>
+                <td>1Ra Costilla Cartilaginosa, Costillas restantes Sinovial</td>
+                <td>Cartilaginosa y Plana</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Costovertebrales</td>
+                <td>Cabeza de la costilla y vértebras</td>
+                <td>Sinovial</td>
+                <td>Plana</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Costotransversa</td>
+                <td>Tubérculo de la costilla y apófisis transversa</td>
+                <td>Sinovial</td>
+                <td>Plana</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Esternoclavicular</td>
+                <td>Esternón y Clavícula</td>
+                <td>Sinovial</td>
+                <td>Selar</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Acromioclavicular</td>
+                <td>Acromion y Clavícula</td>
+                <td>Sinovial</td>
+                <td>Plana</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Glenohumeral</td>
+                <td>Escápula y Húmero</td>
+                <td>Sinovial</td>
+                <td>Esferoidea</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Húmero-Ulnar</td>
+                <td>Húmero y Ulna</td>
+                <td>Sinovial</td>
+                <td>Gínglimo</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Húmero-Radial</td>
+                <td>Húmero y Radio</td>
+                <td>Sinovial</td>
+                <td>Esferoidea</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Radio-Ulnar Proximal</td>
+                <td>Radio y Ulna Proximal</td>
+                <td>Sinovial</td>
+                <td>Pivote</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Radio-Ulnar Distal</td>
+                <td>Radio y Ulna Distal</td>
+                <td>Sinovial</td>
+                <td>Pivote</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Radiocarpiana</td>
+                <td>Radio, Escafoides y Semilunar</td>
+                <td>Sinovial</td>
+                <td>Pivote</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Radiocarpiana</td>
+                <td>Radio, Escafoides y Semilunar</td>
+                <td>Sinovial</td>
+                <td>Elipsoidea</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Intercarpianas</td>
+                <td>Huesos del Carpo</td>
+                <td>Sinovial</td>
+                <td>Plana</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Carpometacarpianas</td>
+                <td>Huesos del Carpo y Metacarpianos</td>
+                <td>Dedo Pulgar Sinovial, Resto de dedos Sinovial</td>
+                <td>Dedo Pulgar Selar, Resto de dedos Plana</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Metacarpofalángicas</td>
+                <td>Metacarpianos y Falanges Proximales</td>
+                <td>Sinovial</td>
+                <td>Elipsoidea</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Interfalángicas</td>
+                <td>Falanges Adyacentes</td>
+                <td>Sinovial</td>
+                <td>Gínglimo</td>                  
+                </tr>
+
+                <td>Articulación Sacroilíaca</td>
+                <td>Sacro e Ilion</td>
+                <td>Sinovial</td>
+                <td>Plana</td>                  
+                </tr>
+
+                <tr>
+                <td>Sínfisis del pubis</td>
+                <td>Ramas del pubis</td>
+                <td>Cartilaginosa</td>
+                <td>Sínfisis</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Coxofemoral</td>
+                <td>Fémur y Coxal</td>
+                <td>Sinovial</td>
+                <td>Esferoidea</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación de la rodilla</td>
+                <td>Fémur, Tibia y Rotula</td>
+                <td>Sinovial</td>
+                <td>Gínglimo Modificada</td>                  
+                </tr>
+
+                <td>Articulación Tibiofibular Proximal</td>
+                <td>Tibia y Fíbula Proximal</td>
+                <td>Sinovial</td>
+                <td>Plana</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Tibiofibular Distal</td>
+                <td>Tibia y Fíbula Distal</td>
+                <td>Fibrosa</td>
+                <td>Sindesmosis</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Talocrural</td>
+                <td>Tibia, Fíbula y Astragalo</td>
+                <td>Sinovial</td>
+                <td>Gínglimo</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Intertarsianas</td>
+                <td>Huesos del Tarso</td>
+                <td>Sinovial</td>
+                <td>Plana</td>                  
+                </tr>
+
+                <td>Articulación Tarsometatarsianas</td>
+                <td>Huesos del Tarso y Metatarsos</td>
+                <td>Sinovial</td>
+                <td>Plana</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Metatarsofalángicas</td>
+                <td>Metatarsos y Falánges Proximales</td>
+                <td>Sinovial</td>
+                <td>Elipsoidea</td>                  
+                </tr>
+
+                <tr>
+                <td>Articulación Interfalángicas</td>
+                <td>Falanges Adyacentes</td>
+                <td>Sinovial</td>
+                <td>Gínglimo</td>                  
+                </tr>
+
+                
+                      
+
+            </tbody>
+        </table>
+    </section>
+    
+    <script>
+        function normalizarTexto(texto) {
+            return texto.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+        }
+        
+        document.getElementById('buscador').addEventListener('input', function() {
+            let filtro = normalizarTexto(this.value).split(" ");
+            let filas = document.querySelectorAll('#tabla-musculos tr');
+            
+            filas.forEach(fila => {
+                let textoFila = normalizarTexto(fila.textContent);
+                let coincide = filtro.every(palabra => textoFila.includes(palabra));
+                fila.style.display = coincide ? '' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+</Main>
+
+<footer>
+    <p>&copy; 2025 KineAtlas</p>
+</footer>
